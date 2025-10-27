@@ -38,7 +38,6 @@
         }
     ],
     "cpu": "1024",
-    "enableFaultInjection": false,
     "executionRoleArn": "arn:aws:iam::372687848939:role/ecsTaskExecutionRole",
     "family": "new-tdf",
     "memory": "3072",
