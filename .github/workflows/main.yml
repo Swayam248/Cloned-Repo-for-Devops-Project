@@ -46,7 +46,7 @@ jobs:
         id: render-task
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
-          task-definition: new-tdf-revision1.json
+          task-definition: new-tdf-revision6.json
           container-name: ${{ secrets.CONTAINER_NAME }}
           image: ${{ steps.build-image.outputs.image }}
 
